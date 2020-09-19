@@ -1,0 +1,23 @@
+   // function autoloads() {
+    //     var ourRequest = new XMLHttpRequest();
+    //     ourRequest.onreadystatechange = function() {
+    //         console.log(ourRequest.responseText);
+    //         var ourData = JSON.parse(ourRequest.responseText);
+    //         renderHtml(ourData);
+    //     }
+    //     ourRequest.open("GET", "{{ route('fnotify')}}");
+    //     ourRequest.send()
+    // }
+    // function renderHtml(datas) {
+    //     var htmlString = "";
+    //     htmlString +="";
+    //     for (var i = 0; i < datas.length; i++) {
+    //         // htmlString += "<li class='notification-content' style=' border: 1px solid black;'> <p>" +datas[i].data.data+"</p></li>";
+    //         htmlString += "<li style=' border-bottom: 1px solid grey; margin: 20px'> <div class='notification-content'> <span class='notification-date' style='margin-top:12px'>" + datas[i].data.date + "</span> <h2>" + datas[i].data.name + "</h2> <p>" + datas[i].data.data + "</p> </div> </li>";
+    //     }
+    //     //console.log(htmlString);
+    //     console.log(datas[0].count);
+    //     document.getElementById('notify').innerHTML = "<p style='display: inline;margin:0%; background-color: red;font-size: 13px; padding: 2px; border-radius: 3px; font-weight: bold;' id='notify'>" + datas[0].count + "</p>";
+    //     document.getElementById('notification').innerHTML = htmlString;
+    // }
+    // setInterval(autoloads, 8000);
